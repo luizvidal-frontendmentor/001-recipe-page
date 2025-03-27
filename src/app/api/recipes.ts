@@ -193,4 +193,178 @@ export const recipes: Recipe[] = [
 			{ name: "Fat", value: "18g" },
 		],
 	},
+	{
+		name: "Chicken Tikka Masala",
+		image: {
+			src: "/images/tikka-masala.png",
+			alt: "Chicken Tikka Masala",
+			width: 1500,
+			height: 1125,
+		},
+		description:
+			"A rich and creamy curry made with tender chicken pieces in a spiced tomato-based sauce. This British-Indian dish is packed with flavor and perfect served with naan bread and rice.",
+		preparationTimes: [
+			{ name: "Total", value: "45 minutes" },
+			{ name: "Preparation", value: "15 minutes" },
+			{ name: "Cooking", value: "30 minutes" },
+		],
+		ingredients: [
+			"800g chicken breast, cut into chunks",
+			"2 cups plain yogurt",
+			"2 tbsp garam masala",
+			"2 tbsp tandoori masala",
+			"1 can (400g) crushed tomatoes",
+			"2 cups heavy cream",
+			"1 large onion, finely chopped",
+			"4 cloves garlic, minced",
+			"2-inch piece ginger, grated",
+			"2 tbsp vegetable oil",
+			"Salt and pepper to taste",
+			"Fresh cilantro for garnish",
+		],
+		instructions: [
+			{
+				name: "Marinate chicken",
+				value:
+					"Mix chicken with yogurt and spices, let marinate for at least 30 minutes.",
+			},
+			{
+				name: "Prepare sauce",
+				value:
+					"Sauté onions, garlic, and ginger until golden. Add tomatoes and cream.",
+			},
+			{
+				name: "Cook chicken",
+				value: "Grill or pan-fry marinated chicken until cooked through.",
+			},
+			{
+				name: "Combine",
+				value: "Add chicken to the sauce and simmer for 10 minutes.",
+			},
+			{
+				name: "Serve",
+				value: "Garnish with cilantro and serve with naan bread and rice.",
+			},
+		],
+		nutritions: [
+			{ name: "Calories", value: "520kcal" },
+			{ name: "Carbs", value: "12g" },
+			{ name: "Protein", value: "32g" },
+			{ name: "Fat", value: "38g" },
+		],
+	},
+	{
+		name: "Quinoa Buddha Bowl",
+		image: {
+			src: "/images/buddha-bowl.png",
+			alt: "Quinoa Buddha Bowl",
+			width: 2550,
+			height: 2511,
+		},
+		description:
+			"A nutritious and colorful bowl packed with quinoa, roasted vegetables, avocado, and a tahini dressing. Perfect for a healthy lunch or dinner.",
+		preparationTimes: [
+			{ name: "Total", value: "35 minutes" },
+			{ name: "Preparation", value: "15 minutes" },
+			{ name: "Cooking", value: "20 minutes" },
+		],
+		ingredients: [
+			"1 cup quinoa",
+			"2 sweet potatoes, cubed",
+			"2 cups chickpeas, drained",
+			"2 cups kale, chopped",
+			"1 avocado, sliced",
+			"1 cup cherry tomatoes",
+			"1/4 cup tahini",
+			"1 lemon, juiced",
+			"2 tbsp olive oil",
+			"Salt and pepper to taste",
+			"Optional: sesame seeds",
+		],
+		instructions: [
+			{
+				name: "Cook quinoa",
+				value: "Rinse quinoa and cook according to package instructions.",
+			},
+			{
+				name: "Roast vegetables",
+				value:
+					"Toss sweet potatoes and chickpeas with oil, roast at 200°C for 20 minutes.",
+			},
+			{
+				name: "Prepare dressing",
+				value: "Mix tahini with lemon juice, water, salt, and pepper.",
+			},
+			{
+				name: "Assemble bowl",
+				value: "Layer quinoa, roasted vegetables, kale, avocado, and tomatoes.",
+			},
+			{
+				name: "Finish",
+				value: "Drizzle with tahini dressing and sprinkle with sesame seeds.",
+			},
+		],
+		nutritions: [
+			{ name: "Calories", value: "480kcal" },
+			{ name: "Carbs", value: "65g" },
+			{ name: "Protein", value: "15g" },
+			{ name: "Fat", value: "22g" },
+		],
+	},
+	{
+		name: "Chocolate Lava Cake",
+		image: {
+			src: "/images/lava-cake.png",
+			alt: "Chocolate Lava Cake",
+			width: 1200,
+			height: 1200,
+		},
+		description:
+			"Decadent individual chocolate cakes with a gooey molten center. Perfect for chocolate lovers and special occasions.",
+		preparationTimes: [
+			{ name: "Total", value: "25 minutes" },
+			{ name: "Preparation", value: "10 minutes" },
+			{ name: "Cooking", value: "15 minutes" },
+		],
+		ingredients: [
+			"200g dark chocolate",
+			"120g unsalted butter",
+			"4 eggs",
+			"120g sugar",
+			"2 tbsp flour",
+			"1 tsp vanilla extract",
+			"Pinch of salt",
+			"Butter and cocoa powder for ramekins",
+		],
+		instructions: [
+			{
+				name: "Prepare ramekins",
+				value: "Butter and dust four ramekins with cocoa powder.",
+			},
+			{
+				name: "Melt chocolate",
+				value: "Melt chocolate and butter together in a double boiler.",
+			},
+			{
+				name: "Mix batter",
+				value:
+					"Whisk eggs, sugar, and vanilla. Fold in chocolate mixture and flour.",
+			},
+			{
+				name: "Bake",
+				value: "Pour into ramekins and bake at 200°C for 12-14 minutes.",
+			},
+			{
+				name: "Serve",
+				value:
+					"Let rest for 1 minute, invert onto plates, and serve immediately.",
+			},
+		],
+		nutritions: [
+			{ name: "Calories", value: "420kcal" },
+			{ name: "Carbs", value: "35g" },
+			{ name: "Protein", value: "6g" },
+			{ name: "Fat", value: "28g" },
+		],
+	},
 ];
