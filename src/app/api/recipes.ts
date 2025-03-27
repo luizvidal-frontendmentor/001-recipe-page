@@ -24,7 +24,7 @@ export const recipes: Recipe[] = [
 	{
 		name: "Simple Omelette Recipe",
 		image: {
-			src: "/images/omelette.jpeg",
+			src: "/001-recipe-page-main/images/omelette.jpeg",
 			alt: "Simple Omelette Recipe",
 			width: 1312,
 			height: 600,
@@ -83,7 +83,7 @@ export const recipes: Recipe[] = [
 	{
 		name: "Classic Pancakes",
 		image: {
-			src: "/images/pancakes.jpg",
+			src: "/001-recipe-page-main/images/pancakes.jpg",
 			alt: "Classic Pancakes",
 			width: 1500,
 			height: 1000,
@@ -138,7 +138,7 @@ export const recipes: Recipe[] = [
 	{
 		name: "Spaghetti Carbonara",
 		image: {
-			src: "/images/carbonara.jpg",
+			src: "/001-recipe-page-main/images/carbonara.jpg",
 			alt: "Spaghetti Carbonara",
 			width: 2400,
 			height: 1350,
@@ -196,7 +196,7 @@ export const recipes: Recipe[] = [
 	{
 		name: "Chicken Tikka Masala",
 		image: {
-			src: "/images/tikka-masala.png",
+			src: "/001-recipe-page-main/images/tikka-masala.png",
 			alt: "Chicken Tikka Masala",
 			width: 1500,
 			height: 1125,
@@ -256,7 +256,7 @@ export const recipes: Recipe[] = [
 	{
 		name: "Quinoa Buddha Bowl",
 		image: {
-			src: "/images/buddha-bowl.png",
+			src: "/001-recipe-page-main/images/buddha-bowl.png",
 			alt: "Quinoa Buddha Bowl",
 			width: 2550,
 			height: 2511,
@@ -314,7 +314,7 @@ export const recipes: Recipe[] = [
 	{
 		name: "Chocolate Lava Cake",
 		image: {
-			src: "/images/lava-cake.png",
+			src: "/001-recipe-page-main/images/lava-cake.png",
 			alt: "Chocolate Lava Cake",
 			width: 1200,
 			height: 1200,
