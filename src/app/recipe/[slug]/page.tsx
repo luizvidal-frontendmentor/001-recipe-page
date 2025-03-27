@@ -5,6 +5,13 @@ import AppFooter from "@/components/AppFooter";
 import AppRecipe from "@/components/recipe/AppRecipe";
 import { notFound } from "next/navigation";
 
+// Add this function to generate all possible slug values at build time
+export async function generateStaticParams() {
+	return recipes.map((recipe) => ({
+		slug: recipe.name.toLowerCase().replace(/\s+/g, "-"),
+	}));
+}
+
 export default async function RecipePage({
 	params,
 }: {
